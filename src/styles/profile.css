@@ -52,6 +52,7 @@
 .navbar-brand:hover,
 .bi:hover {
     color: rgb(162, 123, 92);
+    cursor: pointer;
 }
 .nav-link:active{
     color: rgb(162, 123, 92)
