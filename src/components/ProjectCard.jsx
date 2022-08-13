@@ -17,7 +17,7 @@ const ProjectCard = ({ data }) => {
                 <p className="card-text fw-bold">{data.description}</p>
                 {data.id==1?<a href={"https://github.com/saaaadmalik/webproject"} className="button text-decoration-none text-green">VIEW SOURCE CODE</a>
                 :data.id==2?<a href={"https://github.com/saaaadmalik/react-app"} className="button text-decoration-none text-green">VIEW SOURCE CODE</a>
-                :data.id==3?<a href="#" className="button text-decoration-none text-green">VIEW SOURCE CODE</a>
+                :data.id==3?<a href="https://github.com/saaaadmalik/saadmalik" className="button text-decoration-none text-green">VIEW SOURCE CODE</a>
                 :null}
             </div>
         </div>
